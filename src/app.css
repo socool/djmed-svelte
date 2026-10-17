@@ -1,19 +1,40 @@
 :root {
 	--color-bg: #ffffff;
+	--color-surface: #f9fafb;
 	--color-fg: #111827;
-	--color-muted: #6b7280;
+	--color-muted: #5b6472;
 	--color-accent: #4f46e5;
+	--color-on-accent: #ffffff;
 	--color-border: #e5e7eb;
-	--max-width: 64rem;
+	--max-width: 72rem;
+
+	/* Chart palette: blue and amber stay distinguishable for common color-vision deficiencies. */
+	--chart-1: #2563eb;
+	--chart-2: #b45309;
+	--chart-3: #0f766e;
+	--chart-4: #7e22ce;
+	--chart-flag: #c81e1e;
+	--chart-grid: #e5e7eb;
+	--chart-axis: #5b6472;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
 		--color-bg: #0b0f19;
+		--color-surface: #111827;
 		--color-fg: #f3f4f6;
 		--color-muted: #9ca3af;
 		--color-accent: #818cf8;
+		--color-on-accent: #0b0f19;
 		--color-border: #1f2937;
+
+		--chart-1: #60a5fa;
+		--chart-2: #fbbf24;
+		--chart-3: #2dd4bf;
+		--chart-4: #c4b5fd;
+		--chart-flag: #f87171;
+		--chart-grid: #1f2937;
+		--chart-axis: #9ca3af;
 	}
 }
 
